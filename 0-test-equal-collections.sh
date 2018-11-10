@@ -2,7 +2,7 @@
 
 cd before-kibit-kibit-workspace
 git checkout -- .
-time lein kibit --replace kibit &> /dev/null
+time lein kibit --replace kibit 
 cd ..
 
 cd before-kibit-teresy-workspace
