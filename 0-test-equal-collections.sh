@@ -12,7 +12,8 @@ cd ..
 
 EQUAL=`./diff-teresy-vs-kibit.sh`
 
-echo "Diffs" ${EQUAL}
+printf "Diffs\n"
+echo "${EQUAL}"
 
 cd before-kibit-kibit-workspace
 git checkout -- .
